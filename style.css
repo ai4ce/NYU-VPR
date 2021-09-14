@@ -114,7 +114,7 @@ nav ul li a:hover {
 
 .line {
     border-top: 1px solid rgb(204, 204, 204);
-    width: 60%;
+    width: 1000px;
     margin-bottom: 20px;
 }
 
@@ -223,7 +223,7 @@ nav ul li a:hover {
 
 hr.horizontalLine {
     border-top: 1px solid rgba(167, 167, 167, 0.3);
-    width: 80%;
+    width: 700px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
