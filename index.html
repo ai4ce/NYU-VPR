@@ -6,26 +6,25 @@
     </head>
 
     <body>
+        <nav>
+            <a class="logo" href="#">
+                NYU-VPR
+            </a>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#stats">Statistics</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <!-- <li><a href="#exp">Experiences</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="container">
             <header class="main_header">
-                <nav>
-                    <a class="logo" href="#">
-                        NYU-VPR
-                    </a>
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#intro">Introduction</a></li>
-                            <li><a href="#stats">Statistics</a></li>
-                            <li><a href="#download">Download</a></li>
-                            <!-- <li><a href="#exp">Experiences</a></li> -->
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                
                 <div class="box">
-                    <div class="title">Official NYU-VPR Dataset Website</div>
+                    <div class="title">NYU-VPR Dataset Website</div>
                     <hr class="line">
                     <div class="description">This is the official dataset website for paper <a href="">NYU-VPR</a></div>
                 </div>
@@ -36,7 +35,43 @@
             <div class="content">
                 <h1>Introduction</h1>
                 <hr class="horizontalLine">
-                <p>Contains 100,000 images taken from April 2016 to March 2017.</p>
+                <p>Our dataset is named NYU-VPR. It is composed of images recorded in Manhattan, New York from April 2016 to March 2017. The images were recorded by cameras installed on the front, back, and side parts of taxis with auto-exposure. The dataset contains both side-view images and front-view images. There are 100,500 side-view and 101,290 front-view images, each with a 640x480 resolution. On the basis of raw images, we use <a href="https://github.com/mseg-dataset/mseg-api" style="text-decoration: none; color: rgb(190, 80, 190);">MSeg</a>, a semantic segmentation method, to replace moving objects such as people and cars with white pixels. Fig. 1 compares anonymized and raw images.</p>
+
+                <div>
+                    <img class="imgs" src="imgs/non_anony.jpg" alt="non_anony">
+                    <figcaption>Fig. 1 - Illustration of raw images and anonymized images</figcaption>
+                </div>
+
+                <p>The images were recorded on streets around Washington Square Park. The trajectories of the locations where the images were recorded are shown in Fig. 2. Since the cameras were placed on fleet cars, and their routes were random, the frequencies of locations where the images were taken are different. The frequencies of the locations where the side-view and front-view images were recorded are shown in Fig. 3 and Fig. 4 respectively.</p>
+
+                <div class="imgs">
+                    <div class="one-third">
+                        <img src="imgs/all_mark.jpg" alt="trajectories">
+                        <figcaption>Fig. 2</figcaption>
+                    </div>
+                    <div class="one-third">
+                        <img src="imgs/freq_front.jpg" alt="freq_front">
+                        <figcaption>Fig. 3</figcaption>
+                    </div>
+                    <div class="one-third">
+                        <img src="imgs/freq_side.jpg" alt="freq_side">
+                        <figcaption>Fig. 4</figcaption>
+                    </div>
+                </div>
+
+                <p>Fig. 5 shows the time distribution. Since it contains images captured from May 2016 to March 2017, our dataset includes all four seasons. Therefore, it contains various changes of weather, illumination, vegetation, and road construction. As shown in Fig. 6, we can see image changes at the same location as the season changes.</p>
+
+                <div class="imgs">
+                    <div class="half">
+                        <img src="imgs/time_distribution.jpg" alt="time_distribution">
+                        <figcaption>Fig. 5</figcaption>
+                    </div>
+                    <div class="half">
+                        <img src="imgs/different_time.jpg" alt="different_time">
+                        <figcaption>Fig. 6</figcaption>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -44,6 +79,7 @@
             <div class="content">
                 <h1>Statistics</h1>
                 <hr class="horizontalLine">
+                
             </div>
         </section>
 
@@ -51,6 +87,8 @@
             <div class="content">
                 <h1>Download</h1>
                 <hr class="horizontalLine">
+                <p>Files are organized as four zips and a .csv file. Zip files contain images and the csv file contains information for each corresponding image such as GPS coordinates and image-taken date and time.</p>
+                <h3>Google Drive Link: <a href="https://drive.google.com/drive/u/1/folders/1uhNzQJX7Tw9vnvNwRdN7zHtJaVsT5How">Please Click Here</a></h3>
             </div>
         </section>
 
@@ -58,6 +96,10 @@
             <div class="content">
                 <h1>Contact Us</h1>
                 <hr class="horizontalLine">
+                <h3>Chen Feng - <a class="mail" href="mailto:cfeng@nyu.edu">cfeng@nyu.edu</a></h3>
+                <h3>Dean Sheng - <a class="mail" href="mailto:ds5725@nyu.edu">ds5725@nyu.edu</a></h3>
+                <h3>Yuxiang Chai - <a class="mail" href="mailto:yc3743@nyu.edu">yc3743@nyu.edu</a></h3>
+                <h3>Xinru Li - <a class="mail" href="mailto:xl2641@nyu.edu">xl2641@nyu.edu</a></h3>
             </div>
         </section>
 

@@ -42,7 +42,7 @@ header {
 .logo {
     text-decoration: none;
     line-height: 60px;
-    position: fixed;
+    /* position: fixed; */
     float: left;
     margin: 16px 46px;
     color: rgb(190, 80, 190);
@@ -59,6 +59,7 @@ nav {
     line-height: 60px;
     background-color: rgb(50, 50, 50);
     z-index: 10;
+    top: 0;
 }
 
 nav ul {
@@ -109,14 +110,15 @@ nav ul li a:hover {
 
 .line {
     border-top: 1px solid rgb(204, 204, 204);
-    width: 1200px;
+    width: 60%;
+    margin-bottom: 20px;
 }
 
 .description {
     color:  white;
     font-size: 40px;
     font-family: 'Josefin Sans', sans-serif;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -181,14 +183,59 @@ nav ul li a:hover {
     line-height: 30px;
 }
 
+.content .imgs {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.content figcaption {
+    font-size: 12px;
+}
+
+.content .imgs .one-third {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.content .imgs .one-third img {
+    width: 100%;
+}
+
+.content .imgs .half {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.content .imgs .half img {
+    width: 100%;
+}
+
+.content figcaption {
+    margin-bottom: 20px;
+}
+
 hr.horizontalLine {
     border-top: 1px solid rgba(167, 167, 167, 0.3);
     width: 80%;
     margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.content h3 a {
+    text-decoration: none;
+    color:rgb(190, 80, 190);
 }
 
 
 /* Contact us */
 #contact {
-    background-color: black;
+    background-color: rgb(50, 50, 50);
+}
+
+.mail {
+    text-decoration: none;
+    color:rgb(190, 80, 190);
 }
