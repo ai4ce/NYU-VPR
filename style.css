@@ -158,6 +158,7 @@ nav ul li a:hover {
 
 .content {
     width: 50%;
+    max-width: 1000px;
     margin: auto;
     position: relative;
     margin-bottom: 80px;
