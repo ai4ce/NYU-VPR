@@ -230,6 +230,117 @@ hr.horizontalLine {
 }
 
 
+/* Description */
+.services-tabs {
+    list-style-type: none;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.services-tabs ul {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.services-tabs ul li {
+    padding: 5px 30px;
+}
+
+.services-tabs ul li a {
+    font-size: 14px;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: bold padding 0;
+    text-decoration: none;
+}
+
+.services-tabs ul li.r-tabs-state-active a {
+    color: rgb(190, 80, 190);
+    font-weight: 700;
+    border-bottom: 3px solid rgb(190, 80, 190);
+    padding-bottom: 5px;
+    -webkit-transition: border-color 300ms linear;
+    transition: border-color 300ms linear;
+}
+
+.services-tabs ul li.r-tabs-state-default a:hover {
+    color: rgb(190, 130, 190);
+    font-weight: 200;
+    border-bottom: 3px solid rgb(190, 130, 190);
+    padding-bottom: 5px;
+    -webkit-transition: border-color 100ms linear;
+    transition: border-color 100ms linear;
+}
+
+.despContainer {
+    /* display: grid; */
+    /* grid-template-columns: 50% 50%;
+    grid-template-rows: 100%; */
+    height: 100%;
+}
+
+.despTab {
+    text-align: left;
+    padding: 0;
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.despTab .tabBg {
+    background: #FFFFFF;
+}
+
+.despTab h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.despTab h3 {
+    margin: 10px 0 20px 0;
+}
+
+.despTab p {
+    padding-bottom: 15px;
+}
+
+.despTab .imgContainer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.despTab .imgContainer img {
+    width: 80%;
+}
+
+.r-tabs .r-tabs-nav {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.r-tabs .r-tabs-tab {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.r-tabs .r-tabs-panel {
+    padding: 20px 50px;
+    display: none;
+}
+
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+}
+
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+    display: block;
+    padding: 20px 50px;
+}
+
+
 /* Contact us */
 #contact {
     background-color: rgb(50, 50, 50);
