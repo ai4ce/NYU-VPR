@@ -43,11 +43,10 @@ header {
     width: 100%;
 }
 
-.logo {
+/* .logo {
     text-decoration: none;
     text-align: center;
     line-height: 60px;
-    /* position: fixed; */
     float: left;
     margin: 16px 46px;
     color: rgb(190, 80, 190);
@@ -56,17 +55,29 @@ header {
     font-size: 34px;
     letter-spacing: 2px;
     width: 200px;
-}
+} */
 
-.logo:hover {
+/* .logo:hover {
     text-decoration: none;
     color: rgb(100, 50, 100);
+} */
+
+.logo {
+    height: 60px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 80px;
+}
+
+.logo img {
+    height: 60px;
 }
 
 nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
+    /* height: 90px; */
     background-color: rgb(50, 50, 50);
     z-index: 10;
     top: 0;
