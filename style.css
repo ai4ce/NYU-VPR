@@ -97,8 +97,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    /* text-decoration: none; */
-    color: rgb(100, 0, 100);
+    text-decoration: none;
+    color: rgb(100, 50, 100);
+    border-bottom: 2px solid rgb(100, 50, 100);
+    padding-bottom: 5px;
     font-size: 22px;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 600;
