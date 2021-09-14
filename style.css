@@ -218,8 +218,9 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.content figcaption {
+figcaption {
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 hr.horizontalLine {
