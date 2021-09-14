@@ -45,6 +45,7 @@ header {
 
 .logo {
     text-decoration: none;
+    text-align: center;
     line-height: 60px;
     /* position: fixed; */
     float: left;
@@ -55,6 +56,11 @@ header {
     font-size: 34px;
     letter-spacing: 2px;
     width: 200px;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: rgb(100, 50, 100);
 }
 
 nav {
