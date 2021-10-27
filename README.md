@@ -1,4 +1,4 @@
-# NYU-VPR-Benchmark
+# NYU-VPR
 
 This repository provides the experiment code for the paper [Long-Term Visual Place Recognition Benchmark with View Direction and Data Anonymization Influences]().
 
