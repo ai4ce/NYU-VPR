@@ -1,0 +1,10 @@
+opencv-contrib-python == 3.4.2.17
+numpy
+sklearn
+torch==1.5.0+cu101
+torchvision==0.6.0+cu101 
+matplotlib
+utm
+tensorboardX
+Pillow
+

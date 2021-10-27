@@ -1,6 +1,6 @@
 # NYU-VPR-Benchmark
 
-This reposiroty provides the experiment code for the paper [Long-Term Visual Place Recognition Benchmark with View Direction and Data Anonymization Influences]().
+This repository provides the experiment code for the paper [Long-Term Visual Place Recognition Benchmark with View Direction and Data Anonymization Influences]().
 
 ## Requirements
 
@@ -86,7 +86,7 @@ $ python find_closest.py
 
 Copy the `train_image_paths.txt` and `test_image_paths.txt` to test/posenet.
 
-Obtain the latitude and longtitude of training images and convert them to normalized universal transverse mercator (UTM) coordinates.
+Obtain the latitude and longtitude of training images and convert them to normalized Universal Transverse Mercator (UTM) coordinates.
 
 ```
 $ cd test/posenet
@@ -94,7 +94,7 @@ $ python getGPS.py
 $ python mean.py
 ```
 
-Start training. This may take seceral hours. Suggestion: use slurm to run the process.
+Start training. This may take several hours. Suggestion: use slurm to run the process.
 
 ```
 $ python train.py --image_path path_to_train_images/ --metadata_path trainNorm.txt
