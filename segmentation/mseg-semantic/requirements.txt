@@ -1,0 +1,12 @@
+apex
+imageio
+matplotlib
+numpy
+Pillow
+opencv-python>=4.1.0.25
+PyYAML
+recordclass
+scipy
+tqdm
+torch
+yacs
