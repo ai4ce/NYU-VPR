@@ -1,6 +1,6 @@
 # NYU-VPR
 
-This repository provides the experiment code for the paper [Long-Term Visual Place Recognition Benchmark with View Direction and Data Anonymization Influences]().
+This repository provides the experiment code for the paper [Long-Term Visual Place Recognition Benchmark with View Direction and Data Anonymization Influences](https://arxiv.org/abs/2110.09004).
 
 Here is a graphical user interface (GUI) for using VPR methods on custom datasets: https://github.com/ai4ce/VPR-GUI-Tool
 
